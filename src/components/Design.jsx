@@ -1,5 +1,12 @@
 import React from "react";
-
+import plane from "/src/assets/image-plane.jpg";
+import restaurant from "/src/assets/image-restaurant.jpg";
+import confetti from "/src/assets/image-confetti.jpg";
+import currency from "/src/assets/image-currency.jpg";
+import online from "/src/assets/icon-online.svg";
+import budgeting from "/src/assets/icon-budgeting.svg";
+import api from "/src/assets/icon-api.svg";
+import onboarding from "/src/assets/icon-onboarding.svg";
 function Design() {
   return (
     <div className="md:-mt-24 font-sans">
@@ -16,11 +23,7 @@ function Design() {
           </div>
           <div className="flex flex-col justify-center items-center md:flex-row gap-6">
             <div className="flex justify-center items-center text-center  md:justify-start md:text-start flex-col md:items-start">
-              <img
-                src="./src/assets/icon-online.svg"
-                alt=""
-                className="my-3 md:my-5"
-              />
+              <img src={online} alt="" className="my-3 md:my-5" />
               <h3 className="my-3 md:mt-2 md:mb-2">Online Banking</h3>
               <p className="my-3 font-normal text-[#9698a6]">
                 Our modern web and mobile applications allow you to keep track
@@ -28,11 +31,7 @@ function Design() {
               </p>
             </div>
             <div className="flex justify-center items-center text-center  md:justify-start md:text-start flex-col md:items-start">
-              <img
-                src="./src/assets/icon-budgeting.svg"
-                alt=""
-                className="my-3 md:my-5"
-              />
+              <img src={budgeting} alt="" className="my-3 md:my-5" />
               <h3 className="my-3 md:mt-2 md:mb-2">Simple Budgeting</h3>
               <p className="my-3 font-normal text-[#9698a6]">
                 See exactly where your money goes each month. Receive
@@ -40,11 +39,7 @@ function Design() {
               </p>
             </div>
             <div className="flex justify-center items-center text-center  md:justify-start md:text-start flex-col md:items-start">
-              <img
-                src="./src/assets/icon-onboarding.svg"
-                alt=""
-                className=" my-3 md:my-5"
-              />
+              <img src={onboarding} alt="" className=" my-3 md:my-5" />
               <h3 className=" my-3 md:mt-2 md:mb-2">Fast Onboarding</h3>
               <p className="my-3 font-normal text-[#9698a6]">
                 We don’t do branches. Open your account in minutes online and
@@ -52,11 +47,7 @@ function Design() {
               </p>
             </div>
             <div className="flex justify-center items-center text-center  md:justify-start md:text-start flex-col md:items-start">
-              <img
-                src="./src/assets/icon-api.svg"
-                alt=""
-                className="md:my-5 my-3"
-              />
+              <img src={api} alt="" className="md:my-5 my-3" />
               <h3 className=" my-3 md:mt-2 md:mb-2">Open API</h3>
               <p className="my-3  font-normal text-[#9698a6]">
                 Manage your savings, investments, pension, and much more from
@@ -73,11 +64,7 @@ function Design() {
           </h3>
           <div className="flex flex-col md:flex-row  justify-between items-center mx-3 gap-6 md:gap-5">
             <div className=" rounded-lg overflow-clip bg-[white] flex flex-col justify-center items-center">
-              <img
-                src="./src/assets/image-currency.jpg"
-                alt=""
-                className="w-full h-40"
-              />
+              <img src={currency} alt="" className="w-full h-40" />
               <div className="flex flex-col justify-center items-start p-7 md:p-3 md:pr-16">
                 <p className="text-[10px] text-[#9698a6] my-2">
                   By Claire Robinson
@@ -91,11 +78,7 @@ function Design() {
               </div>
             </div>
             <div className=" rounded-lg overflow-clip bg-[white]">
-              <img
-                src="./src/assets/image-restaurant.jpg"
-                alt=""
-                className="w-full h-40"
-              />
+              <img src={restaurant} alt="" className="w-full h-40" />
               <div className="flex flex-col justify-center items-start p-7 md:p-3 md:pr-16">
                 <p className="text-[10px] text-[#9698a6] my-2">
                   By Wilson Hutton
@@ -108,11 +91,7 @@ function Design() {
               </div>
             </div>
             <div className=" rounded-lg overflow-clip bg-[white]">
-              <img
-                src="./src/assets/image-plane.jpg"
-                alt=""
-                className="w-full h-40"
-              />
+              <img src={plane} alt="" className="w-full h-40" />
               <div className="flex flex-col justify-center items-start p-7 md:p-3 md:pr-16">
                 <p className="text-[10px] text-[#9698a6] my-2">
                   By Wilson Hutton
@@ -126,11 +105,7 @@ function Design() {
               </div>
             </div>
             <div className=" rounded-lg overflow-clip bg-[white]">
-              <img
-                src="./src/assets/image-confetti.jpg"
-                alt=""
-                className="w-full h-40"
-              />
+              <img src={confetti} alt="" className="w-full h-40" />
               <div className="flex flex-col justify-center mb-5 md:mb-0 items-start p-7 md:p-3 md:pr-16">
                 <p className="text-[10px] my-2 text-[#9698a6]">
                   By Claire Robinson

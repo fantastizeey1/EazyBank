@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import logo from "/src/assets/logo.svg";
 
 function Header() {
   const [nav, setNav] = useState(false);
@@ -11,7 +12,7 @@ function Header() {
     <div>
       <div>
         <header className=" h-[7vh] md:h-[12vh] flex justify-between md:justify-between items-center md:mx-16 mx-3 z-[99] ">
-          <img src="./src/assets/logo.svg" alt="" />
+          <img src={logo} alt="" />
 
           <nav className=" flex-row justify-center items-center hidden md:flex">
             <a
