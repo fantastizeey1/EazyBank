@@ -5,7 +5,7 @@ import mockup from "/src/assets/image-mockups.png";
 
 const Main = () => {
   return (
-    <div className="font-sans h-[80vh] md:h-[90vh] bg-[#fafafa] w-[100vw]">
+    <div className="font-sans h-[87vh] md:h-[90vh] bg-[#fafafa] w-[100vw]">
       <div className="relative w-full h-full md:h-full overflow-hidden">
         <img
           src={bgDesktop}
