@@ -13,7 +13,7 @@ function Design() {
       <div className="bg-[#f3f4f6] ">
         <div className="md:ml-24 md:mr-24 md:w-[100%-144px] flex flex-col justify-center items-center md:justify-start md:items-start p-5 md:py-10 ">
           <div className="md:w-[50%] w-[50%]  my-3 flex items-center md:items-start md:justify-start justify-center flex-col">
-            <h2 className="md:my-4 text-[40px] flex items-center md:items-start md:justify-normal text-center md:text-start font-semibold">
+            <h2 className="md:my-4 text-[30px] flex items-center md:items-start md:justify-normal text-center md:text-start font-semibold">
               Why choose Easybank?
             </h2>
             <p className=" font-normal flex items-center p-4 text-center md:text-start text-[#9698a6]">
